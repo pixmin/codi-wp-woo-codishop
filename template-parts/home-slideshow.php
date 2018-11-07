@@ -11,12 +11,7 @@ $loop = new WP_Query($args);
 
 while ($loop->have_posts()) : $loop->the_post();
     
-    echo '<article>';
-    echo '<a href="'.get_permalink().'">';
-    echo woocommerce_get_product_thumbnail();
-    echo get_the_title();
-    echo '</a>';
-    echo '</article>';
+    get_template_part('template-parts/product', 'slideshow');
 
 endwhile;
 
