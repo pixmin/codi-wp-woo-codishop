@@ -9,6 +9,8 @@
 </head>
 <body <?php body_class(); ?>>
 
+<?php wp_nav_menu('header-menu'); ?>
+
 <header>
     <h2>Header</h2>
 </header>
