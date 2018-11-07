@@ -13,3 +13,7 @@ header, footer {
     text-align: center;
     background-color: #eee;
 }
+.carousel-item img {
+    float: left;
+    margin-right: 1rem;
+}
