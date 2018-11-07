@@ -9,9 +9,8 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div class="container">
-
-    <header>
+<header>
+    <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"><?php echo get_bloginfo('name'); ?></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,4 +29,16 @@
             ?>
             </div>
         </nav>
-    </header>
+        <?php
+
+        if (is_front_page()) {
+
+            get_template_part('template-parts/home', 'slideshow');
+
+        }
+
+        ?>
+    </div>
+</header>
+
+<div class="container">
