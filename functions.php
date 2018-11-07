@@ -12,8 +12,8 @@ add_filter('woocommerce_enqueue_styles', '__return_empty_array');
 // Add theme style and scripts
 function gp_enqueue_scripts() {
 
-    wp_enqueue_style('toaster-style', get_stylesheet_directory_uri() . '/style.css');
     wp_enqueue_style('gp-bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css');
+    wp_enqueue_style('toaster-style', get_stylesheet_directory_uri() . '/style.css');
 
 
     wp_enqueue_script('gp-jquery', get_stylesheet_directory_uri() . '/js/jquery-3.3.1.min.js', array(), '3.3.1', true);
