@@ -17,6 +17,7 @@ function gp_enqueue_scripts() {
 
 
     wp_enqueue_script('gp-jquery', get_stylesheet_directory_uri() . '/js/jquery-3.3.1.min.js', array(), '3.3.1', true);
+    wp_enqueue_script('gp-popper', get_stylesheet_directory_uri() . '/js/popper.min.js', array(), '1', true);
     wp_enqueue_script('gp-boostrap-js', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array(), '4.1.3', true);
 
 }
