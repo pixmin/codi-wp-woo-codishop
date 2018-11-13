@@ -23,6 +23,7 @@
             }
         }
     
-    ?>
+        ?>
+        <li class="float-right"><a href="/shop">All products</a></li>
     </ul>
 </nav>
