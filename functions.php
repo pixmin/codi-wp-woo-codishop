@@ -23,11 +23,12 @@ function gp_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'gp_enqueue_scripts');
 
-// Menu
-function register_my_menu() {
+// Menus
+function register_my_menus() {
     register_nav_menu('header-menu',__( 'Header Menu' ));
+    register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
-add_action( 'init', 'register_my_menu' );
+add_action( 'init', 'register_my_menus' );
 
 function add_menuclass($ulclass) {
    return preg_replace('/<a /', '<a class="nav-link" ', $ulclass);

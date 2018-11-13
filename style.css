@@ -12,16 +12,10 @@ header {
 main {
   padding: 3rem; }
 
-footer {
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #eee; }
-
 #product-carousel {
   padding: 10% 0; }
 
 .carousel-inner {
-  width: 75%;
   margin: 0 auto; }
   .carousel-inner h3 {
     padding-top: 4rem; }
@@ -43,5 +37,20 @@ nav.categories {
 section.home-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+
+footer {
+  padding: 3rem 0;
+  background-color: #eee; }
+  footer section {
+    padding: 1rem; }
+  footer ul.menu {
+    margin: 0;
+    padding: 0; }
+    footer ul.menu li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      footer ul.menu li a {
+        padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
