@@ -40,4 +40,8 @@ nav.categories {
     display: inline;
     padding-right: 1rem; }
 
+section.home-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
 /*# sourceMappingURL=style.css.map */
