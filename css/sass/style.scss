@@ -8,6 +8,7 @@ body {
 
 header {
     margin-bottom: 3rem;
+    background-color: #eee;
 }
 
 main {
@@ -18,7 +19,32 @@ footer {
     text-align: center;
     background-color: #eee;
 }
-.carousel-item img {
-    float: left;
-    margin-right: 1rem;
+
+#product-carousel {
+    padding: 10% 0;
+}
+.carousel-inner {
+    width: 75%;
+    margin: 0 auto;
+    h3 {
+        padding-top: 4rem;
+    }
+    img {
+        float: left;
+        height: 40vh;
+        width: auto;
+        margin-right: 5rem;
+    }
+}
+
+nav.categories {
+    margin: 1rem 0;
+    ul, li {
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+        padding-right: 1rem;
+    }
 }

@@ -6,7 +6,8 @@ body {
   padding: 0; }
 
 header {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  background-color: #eee; }
 
 main {
   padding: 3rem; }
@@ -16,8 +17,27 @@ footer {
   text-align: center;
   background-color: #eee; }
 
-.carousel-item img {
-  float: left;
-  margin-right: 1rem; }
+#product-carousel {
+  padding: 10% 0; }
+
+.carousel-inner {
+  width: 75%;
+  margin: 0 auto; }
+  .carousel-inner h3 {
+    padding-top: 4rem; }
+  .carousel-inner img {
+    float: left;
+    height: 40vh;
+    width: auto;
+    margin-right: 5rem; }
+
+nav.categories {
+  margin: 1rem 0; }
+  nav.categories ul, nav.categories li {
+    margin: 0;
+    padding: 0; }
+  nav.categories li {
+    display: inline;
+    padding-right: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
