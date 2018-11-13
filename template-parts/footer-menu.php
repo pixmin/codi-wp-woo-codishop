@@ -4,7 +4,7 @@
 
     wp_nav_menu(array(
         'container' => '',
-        'menu' => 'footer-menu',
+        'menu' => 'Footer',
     ));
 
     ?>

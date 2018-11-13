@@ -22,7 +22,7 @@
 
                 wp_nav_menu(array(
                     'container' => '',
-                    'menu' => 'header-menu',
+                    'menu' => 'Top Menu',
                     'menu_class' => 'nav navbar-nav mx-auto',
                     // 'container' => 'nav',
                 ));
