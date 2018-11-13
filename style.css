@@ -6,8 +6,16 @@ body {
   padding: 0; }
 
 header {
+  padding-top: 1rem;
   margin-bottom: 3rem;
   background-color: #eee; }
+  header nav {
+    font-size: 0.9em;
+    text-transform: uppercase; }
+    header nav a.nav-link {
+      color: #333; }
+  header a.navbar-brand {
+    font-weight: bold; }
 
 main {
   padding: 3rem; }
@@ -37,6 +45,8 @@ nav.categories {
 section.home-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+  section.home-products article a {
+    color: #333; }
 
 footer {
   padding: 3rem 0;
@@ -51,7 +61,8 @@ footer {
       padding: 0;
       list-style-type: none; }
       footer ul.menu li a {
-        padding: 0; }
+        padding: 0;
+        color: #333; }
   footer form button[type=submit] {
     width: 100%; }
 

@@ -7,8 +7,19 @@ body {
 }
 
 header {
+    padding-top: 1rem;
     margin-bottom: 3rem;
     background-color: #eee;
+    nav {
+        font-size: 0.9em;
+        text-transform: uppercase;
+        a.nav-link {
+            color: #333;
+        }
+    }
+    a.navbar-brand {
+        font-weight: bold;
+    }
 }
 
 main {
@@ -47,6 +58,9 @@ nav.categories {
 section.home-products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    article a {
+        color: #333;
+    }
 }
 
 footer {
@@ -64,6 +78,7 @@ footer {
             list-style-type: none;
             a {
                 padding: 0;
+                color: #333;
             }
         }
     }
