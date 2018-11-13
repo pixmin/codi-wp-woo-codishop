@@ -52,5 +52,7 @@ footer {
       list-style-type: none; }
       footer ul.menu li a {
         padding: 0; }
+  footer form button[type=submit] {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

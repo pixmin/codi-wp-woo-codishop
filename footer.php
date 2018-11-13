@@ -1,4 +1,7 @@
-    <footer>
+</div><!-- .container -->
+
+<footer>
+    <div class="container">
         <div class="row">
             <div class="col-4">
                 <?php get_template_part('template-parts/footer', 'menu'); ?>
@@ -10,9 +13,9 @@
                 <?php get_template_part('template-parts/footer', 'newsletter'); ?>
             </div>
         </div><!-- .row -->
-    </footer>
+    </div>
+</footer>
 
-</div><!-- .container -->
 <?php wp_footer(); ?>
 </body>
 </html>
