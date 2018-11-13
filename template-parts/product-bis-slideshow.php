@@ -11,12 +11,10 @@
 
 ?>
 <div class="carousel-item<?php echo $class ?>">
-    
+
     <?php echo woocommerce_get_product_thumbnail(); ?>
     <h3><?php echo $product->get_name(); ?></h3>
     <p><?php echo $product->get_description(); ?></p>
-    <a href="<?php echo $product->get_permalink(); ?>" class="btn btn-primary">
-        Voir
-    </a>
+    <a href="<?php echo $product->get_permalink(); ?>" class="btn btn-dark">Learn more</a>
 
 </div>
