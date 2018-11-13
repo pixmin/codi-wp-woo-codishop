@@ -17,18 +17,25 @@
             <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent justify-content-center">
             <?php
 
                 wp_nav_menu(array(
-                'menu' => 'header-menu',
-                'menu_class' => 'navbar-nav mr-auto',
-                // 'container' => 'nav',
+                    'container' => '',
+                    'menu' => 'header-menu',
+                    'menu_class' => 'nav navbar-nav mx-auto',
+                    // 'container' => 'nav',
                 ));
 
             ?>
+            <ul class="nav navbar-nav">
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+            </ul>
             </div>
         </nav>
+
         <?php
 
         if (is_front_page()) {
