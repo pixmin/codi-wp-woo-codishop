@@ -3,7 +3,6 @@
 $args = array(
     'post_type' => 'product',
     'posts_per_page' => 6,
-    'order' => 'rand',
     'orderby' => 'rand'
 );
 
