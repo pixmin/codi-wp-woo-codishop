@@ -64,8 +64,14 @@ section.home-products {
 }
 
 footer {
-    padding: 3rem 0;
+    padding: 3rem 0 .5rem;
     background-color: #eee;
+    h4 {
+        margin-bottom: 1em;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
     section {
         padding: 1rem;
     }
@@ -77,14 +83,24 @@ footer {
             padding: 0;
             list-style-type: none;
             a {
-                padding: 0;
+                padding: 1em 0;
                 color: #333;
+                border-bottom: 1px solid #ddd;
             }
         }
     }
     form {
         button[type=submit] {
             width: 100%;
+        }
+    }
+    p {
+        margin-top: 5rem;
+        font-size: 0.9rem;
+        color: #555;
+        text-align: center;
+        a {
+            color: #333;
         }
     }
 }

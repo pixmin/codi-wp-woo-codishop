@@ -13,6 +13,7 @@
                 <?php get_template_part('template-parts/footer', 'newsletter'); ?>
             </div>
         </div><!-- .row -->
+        <p>Proudly powered by <a href="">Wordpress</a> | Designed by <a href="">CodinCamp</a></p>
     </div>
 </footer>
 

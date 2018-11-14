@@ -49,8 +49,13 @@ section.home-products {
     color: #333; }
 
 footer {
-  padding: 3rem 0;
+  padding: 3rem 0 .5rem;
   background-color: #eee; }
+  footer h4 {
+    margin-bottom: 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase; }
   footer section {
     padding: 1rem; }
   footer ul.menu {
@@ -61,9 +66,17 @@ footer {
       padding: 0;
       list-style-type: none; }
       footer ul.menu li a {
-        padding: 0;
-        color: #333; }
+        padding: 1em 0;
+        color: #333;
+        border-bottom: 1px solid #ddd; }
   footer form button[type=submit] {
     width: 100%; }
+  footer p {
+    margin-top: 5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center; }
+    footer p a {
+      color: #333; }
 
 /*# sourceMappingURL=style.css.map */
