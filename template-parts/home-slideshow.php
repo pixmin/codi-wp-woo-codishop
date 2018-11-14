@@ -7,6 +7,15 @@
 
         $first_slide = true;
 
+        // Get 3 products on sale
+
+        // $products_on_sale = wc_get_product_ids_on_sale(['limit' => 3]);
+        // foreach ($products_on_sale as $product_on_sale) {
+        //     $product = wc_get_product($product_on_sale);
+        //     get_template_part('template-parts/product-bis', 'slideshow');
+        // }
+
+
         // Get the latest 3 products from category 'home'
 
         // V1 & V2
