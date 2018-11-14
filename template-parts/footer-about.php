@@ -4,7 +4,7 @@
 
     // Content from About page
     $post = get_post(57);
-    echo apply_filters('the_content', $post->post_content);
+    echo apply_filters('the_exceprt', $post->post_excerpt);
 
     ?>
 </section>

@@ -34,3 +34,6 @@ function add_menuclass($ulclass) {
    return preg_replace('/<a /', '<a class="nav-link" ', $ulclass);
 }
 add_filter('wp_nav_menu','add_menuclass');
+
+// Add exceprt support on pages
+add_post_type_support( 'page', 'excerpt' );
