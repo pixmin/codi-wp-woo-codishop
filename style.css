@@ -79,4 +79,13 @@ footer {
     footer p a {
       color: #333; }
 
+section.debug {
+  padding: 1rem;
+  color: green;
+  background-color: #000;
+  text-align: center; }
+  section.debug em {
+    font-weight: bold;
+    font-style: normal; }
+
 /*# sourceMappingURL=style.css.map */

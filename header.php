@@ -1,4 +1,8 @@
-<!doctype html>
+<?php
+
+$mem_start = memory_get_usage();
+
+?><!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">

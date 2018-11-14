@@ -104,3 +104,14 @@ footer {
         }
     }
 }
+
+section.debug {
+    padding: 1rem;
+    color: green;
+    background-color: #000;
+    text-align: center;
+    em {
+        font-weight: bold;
+        font-style: normal;
+    }
+}
